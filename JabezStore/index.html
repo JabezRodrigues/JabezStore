@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <div class="part1">
+        <header class="menu">
+          <div class="titulo ">JBZ</div>
+          <div class="botoes">
+        
+            <i id="abrir" style="color: white;" class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </header>
+    </div>
+
+    
+    <section style="display: none;" class="carrinho" id="carrinho">
+      <div class="cabecalho-carrinho">
+        <p>Meu carrinho</p>
+        <button" id="fechar"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <section  id="produtos-carrinho" class="produtos-carrinho">
+      </section>
+
+      <button class="botaofinalizar" id="botaofinalizar">Finalizar Compra</button>
+
+    </section>
+
+
+    <section class="meio">
+        <div class="galeriatop">
+          <p>buy in</p>
+          <h2>Jabez Store
+          </h2>
+        </div>
+      </section>  
+
+    <main id="main">
+      <section class="container-produto" id="container-produto">
+
+      </section>
+    </main>
+
+    <section class="compraFinalizada" id="main2" style="display: none;">
+      <article class="paiCompra">
+        <h2 style="font-size: 2em; color: White;"> COMPRA FINALIZADA</h2>
+        <i class="fa-solid fa-check" style="color: #25511f;font-size: 7em;"></i>
+        <p style="width: 22em; color: white;text-align:center;">Bem, como somos uma empresa de entrega super rápida, basta apenar olhar para o lado e você já receberá seu Produto!</p>
+        <p style="color: gray;">Continue conosco! Muito Obrigado!</p>
+      </article>
+    </section>
+
+
+    <script  defer src="scripts.js"></script>
+    <script defer src="src/menuCarrinho.js"></script>
+    <script src="src/cardProduto.js"></script>
+  </body>
+</html>
